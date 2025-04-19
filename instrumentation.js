@@ -6,7 +6,7 @@ const { PrometheusExporter } = require('@opentelemetry/exporter-prometheus');
 const { PeriodicExportingMetricReader } = require('@opentelemetry/sdk-metrics');
 const sdk = new opentelemetry.NodeSDK({
   metricReader: new PrometheusExporter({
-    port: 9464, // optional - default is 9464
+    port: 9464, 
   }),
   instrumentations: [getNodeAutoInstrumentations()],
 });
