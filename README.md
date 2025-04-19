@@ -107,3 +107,7 @@ v8js_memory_heap_space_physical_size{v8js_heap_space_name="large_object_space"} 
 v8js_memory_heap_space_physical_size{v8js_heap_space_name="code_large_object_space"} 0
 v8js_memory_heap_space_physical_size{v8js_heap_space_name="shared_large_object_space"} 0
 v8js_memory_heap_space_physical_size{v8js_heap_space_name="trusted_large_object_space"} 0
+
+
+## APP DEPLOYED AT http://localhost:8080/rolldice
+used JAVASCRIPT, EXPRESS, OPEN TELEMETRY, PREMETHEUS
